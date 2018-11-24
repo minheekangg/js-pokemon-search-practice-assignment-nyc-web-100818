@@ -1,0 +1,14 @@
+<!-- GOAL -->
+<div class="splash-image">
+    <div class="w3-container" style="padding:55px 16px" id="about">
+
+        <div class="ui block header" id="splash-box">
+  <h5><%= image_tag "soccer-field.png" %></h5>
+      <h1 class="ui header">Goal: <%= @goal.name %> <br> Target # of days in a week : <%= @goal.weekly_occurance %> <br>
+    </h1>  <h6> <%= link_to "Edit Goal", edit_goal_path(@goal), class: "ui button"%>  </h6>
+    <h6> <%= link_to "View All Goals", goals_path, class: "positive ui button"%>  </h6>
+    </div>
+
+
+    </div>
+</div>
